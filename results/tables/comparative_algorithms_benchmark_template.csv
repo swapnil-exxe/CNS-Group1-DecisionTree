@@ -1,0 +1,6 @@
+Model Architecture,Status,Training Time (s),Inference Latency (per packet),Batch Throughput (packets/s),Model Size,Macro F1-Score,Binary Accuracy
+Group 1: Pruned Decision Tree (Ours),Evaluated & Benchmarked,5.911 s,34.41 us,"12,036,209",5.44 KB,99.65%,99.96%
+Group 2: K-Nearest Neighbors (KNN),[Pending Group 2 Results],TBD,TBD,TBD,TBD,TBD,TBD
+Group 3: AdaBoost Classifier,[Pending Group 3 Results],TBD,TBD,TBD,TBD,TBD,TBD
+Group 4: Isolation Forest (Anomaly),[Pending Group 4 Results],TBD,TBD,TBD,TBD,TBD,TBD
+Group 5: Random Forest Ensemble,[Pending Group 5 Results],TBD,TBD,TBD,TBD,TBD,TBD

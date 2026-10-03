@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Group 1 Literature Review: Decision Trees in IoT Botnet Attack Detection</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 40px; color: #2C3E50; }
+h1, h2, h3 { color: #1A5276; }
+table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+th, td { border: 1px solid #BDC3C7; padding: 8px 12px; text-align: left; font-size: 10pt; }
+th { background-color: #2980B9; color: white; }
+tr:nth-child(even) { background-color: #F8F9FA; }
+blockquote { border-left: 4px solid #3498DB; margin: 0; padding-left: 15px; color: #555; }
+code { background: #EAEDED; padding: 2px 4px; border-radius: 3px; font-size: 9pt; }
+</style>
+</head>
+<body>
+<h1>Group 1 Literature Review: Decision Trees in IoT Botnet Attack Detection</h1>
+<p>This document provides a verified academic literature review for <strong>Group 1 (Decision Tree)</strong>, contextualizing our implementation of a CART-style Decision Tree with Cost-Complexity Pruning on the N-BaIoT dataset within published research.</p>
+<hr />
+<h2>Methodological Clarification: CART vs. C4.5</h2>
+<p>The assigned research framework is based on the reference:</p>
+<blockquote>
+<p><em>"Lightweight Android and IoT Botnet Detection Using C4.5 Decision Trees"</em></p>
+</blockquote>
+<p><strong>Key Distinctions:</strong>
+1. The C4.5 algorithm (Quinlan, 1993) constructs non-binary or binary trees using Information Gain Ratio derived from Shannon Entropy, handles missing attributes through fractional weighting, and employs error-based post-pruning.
+2. The implementation utilized in this project is based on <code>sklearn.tree.DecisionTreeClassifier</code>, which implements an optimized version of the <strong>Classification and Regression Trees (CART)</strong> algorithm (Breiman et al., 1984).
+3. CART constructs strictly binary trees using <strong>Gini Impurity</strong> and regularizes tree complexity via <strong>Minimal Cost-Complexity Pruning ($ccp_\alpha$)</strong>.
+4. Therefore, this project represents a <strong>CART-style Decision Tree implementation inspired by the assigned C4.5 IoT botnet detection research framework</strong>, rather than an exact software reproduction of Quinlan's original C4.5 codebase.</p>
+<hr />
+<h2>Paper 1: Feature-Efficient Machine Learning for IoT Botnet Detection</h2>
+<ul>
+<li><strong>Title:</strong> CORRAUC: A Malicious Bot-IoT Traffic Detection Method in IoT Network Using Machine-Learning Techniques</li>
+<li><strong>Authors:</strong> Muhammad Shafiq, Zhihong Tian, Ali Kashif Bashir, Xiaojiang Du, and Mohsen Guizani</li>
+<li><strong>Year:</strong> 2021 (Published online 2020)</li>
+<li><strong>Journal:</strong> <em>IEEE Internet of Things Journal</em>, Vol. 8, No. 5, pp. 3242–3253</li>
+<li><strong>DOI:</strong> <a href="https://doi.org/10.1109/JIOT.2020.3002255">10.1109/JIOT.2020.3002255</a></li>
+<li><strong>Indexing Status:</strong> Published in <em>IEEE Internet of Things Journal</em> (IEEE / Scopus; Scopus-indexing status should be verified through the institution's Scopus subscription/database before final submission).</li>
+<li><strong>Main Method:</strong>
+  The authors developed the CORRAUC feature selection framework (combining Correlation-Attribute-Evaluation with Area Under the ROC Curve metric) to isolate the most discriminative traffic features from packet flows. Decision Trees (C4.5 and CART variants), Random Forests, and Support Vector Machines were evaluated to detect IoT botnet attacks, including DoS, DDoS, reconnaissance, and data exfiltration.</li>
+<li><strong>Dataset Evaluated:</strong> The Bot-IoT Dataset.</li>
+<li><strong>Important Findings:</strong></li>
+<li>Supervised tree models achieved detection accuracy exceeding 99.9%, indicating that network traffic flow statistics provide high linear and non-linear separability for botnet signatures.</li>
+<li>Single decision trees yielded sub-microsecond classification throughput, outperforming deep neural networks in runtime efficiency by several orders of magnitude.</li>
+<li>Feature selection reduced input dimensionality without degrading detection rates, supporting the premise that statistical flow aggregates (arrival rates, variances, and stream weights) suffice for robust identification.</li>
+<li><strong>Relevance to Group 1 Experiment:</strong>
+  Shafiq et al. demonstrate that decision trees achieve a favorable balance between accuracy and computational overhead in IoT environments. Their findings support our observation that continuous sliding-window traffic features provide high separability for both binary detection (99.96% accuracy) and multiclass vector classification (99.62% accuracy) with sub-microsecond latency.</li>
+</ul>
+<hr />
+<h2>Paper 2: Hyperparameter Optimization and Pruning in Tree-Based IoT IDS</h2>
+<ul>
+<li><strong>Title:</strong> Optimized Machine Learning-Based Network Intrusion Detection for IoT Networks</li>
+<li><strong>Authors:</strong> Abdallah Moubayed, MohammadNoor Injadat, Abdallah Shami, and Hassan Lutfiyya</li>
+<li><strong>Year:</strong> 2020</li>
+<li><strong>Journal:</strong> <em>IEEE Internet of Things Journal</em>, Vol. 7, No. 6, pp. 4889–4903</li>
+<li><strong>DOI:</strong> <a href="https://doi.org/10.1109/JIOT.2020.2970588">10.1109/JIOT.2020.2970588</a></li>
+<li><strong>Indexing Status:</strong> Published in <em>IEEE Internet of Things Journal</em> (IEEE / Scopus; Scopus-indexing status should be verified through the institution's Scopus subscription/database before final submission).</li>
+<li><strong>Main Method:</strong>
+  The authors investigated hyperparameter optimization in decision tree and ensemble architectures using Bayesian Optimization with Tree-structured Parzen Estimators (BO-TPE). The study analyzed the effects of structural constraints—such as maximum tree depth, split thresholds, and cost-complexity pruning—on generalization error.</li>
+<li><strong>Dataset Evaluated:</strong> UNSW-NB15 and CICIDS-2017 intrusion detection datasets.</li>
+<li><strong>Important Findings:</strong></li>
+<li>Unpruned decision trees exhibited a noticeable generalization gap caused by overfitting to transient flow fluctuations and idiosyncratic packet length distributions.</li>
+<li>Cost-complexity pruning reduced total tree node counts by over 40% while preserving test F1-scores.</li>
+<li>Pruned, compact models significantly decreased memory consumption and per-packet decision latency, making them viable for resource-constrained network appliances.
+  Moubayed et al.'s findings directly motivate our core objective of tuning $ccp_\alpha$. In our N-BaIoT experiment, pruning with the optimal validation-selected parameter $\alpha = 1.9998 \times 10^{-5}$ removed 48 redundant nodes ($-26.5\%$) and 24 leaf splits ($-26.4\%$), reduced tree depth from 21 to 18, narrowed the train-test generalization gap from $0.1022\%$ to $0.0779\%$, and preserved peak test accuracy ($99.6183\%$).</li>
+</ul>
+<hr />
+<h2>Base Paper Reference</h2>
+<ul>
+<li><strong>Title:</strong> N-BaIoT: Network-based Detection of IoT Botnet Attacks Using Deep Autoencoders</li>
+<li><strong>Authors:</strong> Yair Meidan, Michael Bohadana, Yael Mathov, Yisroel Mirsky, Dominik Breitenbacher, Asaf Shabtai, and Yuval Elovici</li>
+<li><strong>Year:</strong> 2018</li>
+<li><strong>Journal:</strong> <em>IEEE Pervasive Computing</em>, Vol. 17, No. 3, pp. 12–22</li>
+<li><strong>DOI:</strong> <a href="https://doi.org/10.1109/MPRV.2018.03367731">10.1109/MPRV.2018.03367731</a></li>
+<li><strong>Methodological Distinction:</strong></li>
+<li><strong>Base Paper Approach:</strong> Meidan et al. trained individual <strong>deep autoencoders</strong> exclusively on benign network traffic from each of the 9 IoT devices to construct an anomaly detector. The detection metric was reconstruction error (Mean Squared Error), flagging packets exceeding a threshold as malicious.</li>
+<li><strong>Group 1 Approach:</strong> Our implementation adopts a supervised <strong>CART-style Decision Tree</strong> classifier. Rather than reconstructing packet features via autoencoders, the decision tree directly performs supervised partitioning on the 115 continuous statistical features across 11 multiclass categories and binary classification, regularized via cost-complexity pruning.</li>
+</ul>
+</body>
+</html>

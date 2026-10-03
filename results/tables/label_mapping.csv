@@ -1,0 +1,12 @@
+class_id,class_name
+0,benign
+1,gafgyt_combo
+2,gafgyt_junk
+3,gafgyt_scan
+4,gafgyt_tcp
+5,gafgyt_udp
+6,mirai_ack
+7,mirai_scan
+8,mirai_syn
+9,mirai_udp
+10,mirai_udpplain

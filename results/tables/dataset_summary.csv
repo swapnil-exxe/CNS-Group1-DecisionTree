@@ -1,0 +1,11 @@
+metric,value
+Total Raw Dataset Instances,"7,062,606"
+Total Preprocessed Samples,"128,366"
+Number of Features,115
+Feature Data Types,Continuous Float32 (Statistical aggregates)
+Feature Scaling / Normalization,None (Tree models invariant to monotonic transforms)
+Number of Classes,"11 (1 Benign, 10 Attack vectors across 2 botnets)"
+Training Samples (80%),"102,692"
+Test Samples (20%),"25,674"
+Split Random State,42
+Stratified,True

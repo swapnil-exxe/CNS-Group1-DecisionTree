@@ -1,0 +1,6 @@
+sample_file,rows_sampled,columns,null_values,duplicate_rows,data_types
+1.benign.csv,10000,115,0,0,float64
+1.gafgyt.combo.csv,10000,115,0,0,float64
+1.mirai.udp.csv,10000,115,0,0,float64
+4.benign.csv,10000,115,0,0,float64
+8.mirai.syn.csv,10000,115,0,0,float64

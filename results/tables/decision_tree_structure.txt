@@ -1,0 +1,133 @@
+|--- MI_dir_L0.01_weight <= 1.00
+|   |--- HH_jit_L1_mean <= 1505913536.00
+|   |   |--- class: 5
+|   |--- HH_jit_L1_mean >  1505913536.00
+|   |   |--- class: 4
+|--- MI_dir_L0.01_weight >  1.00
+|   |--- MI_dir_L0.01_mean <= 299.40
+|   |   |--- MI_dir_L0.1_weight <= 184.95
+|   |   |   |--- H_L0.01_mean <= 64.09
+|   |   |   |   |--- class: 7
+|   |   |   |--- H_L0.01_mean >  64.09
+|   |   |   |   |--- HH_jit_L0.1_variance <= 5858155539988480.00
+|   |   |   |   |   |--- H_L5_weight <= 62.88
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- H_L5_weight >  62.88
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |--- HH_jit_L0.1_variance >  5858155539988480.00
+|   |   |   |   |   |--- HH_jit_L5_mean <= 1.11
+|   |   |   |   |   |   |--- HpHp_L1_std <= 0.01
+|   |   |   |   |   |   |   |--- H_L0.01_mean <= 212.47
+|   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- H_L0.01_mean >  212.47
+|   |   |   |   |   |   |   |   |--- class: 4
+|   |   |   |   |   |   |--- HpHp_L1_std >  0.01
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- HH_jit_L5_mean >  1.11
+|   |   |   |   |   |   |--- HH_L1_pcc <= 0.03
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- HH_L1_pcc >  0.03
+|   |   |   |   |   |   |   |--- MI_dir_L3_variance <= 1711.37
+|   |   |   |   |   |   |   |   |--- class: 5
+|   |   |   |   |   |   |   |--- MI_dir_L3_variance >  1711.37
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |--- MI_dir_L0.1_weight >  184.95
+|   |   |   |--- H_L0.01_mean <= 63.57
+|   |   |   |   |--- class: 7
+|   |   |   |--- H_L0.01_mean >  63.57
+|   |   |   |   |--- H_L0.01_mean <= 72.46
+|   |   |   |   |   |--- class: 8
+|   |   |   |   |--- H_L0.01_mean >  72.46
+|   |   |   |   |   |--- MI_dir_L0.01_mean <= 74.86
+|   |   |   |   |   |   |--- HH_L0.01_covariance <= 0.00
+|   |   |   |   |   |   |   |--- MI_dir_L0.01_mean <= 74.09
+|   |   |   |   |   |   |   |   |--- HH_L0.01_std <= 0.19
+|   |   |   |   |   |   |   |   |   |--- MI_dir_L1_weight <= 765.67
+|   |   |   |   |   |   |   |   |   |   |--- HH_L0.01_std <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- HH_L0.01_std >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- MI_dir_L1_weight >  765.67
+|   |   |   |   |   |   |   |   |   |   |--- HH_L1_radius <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- HH_L1_radius >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- HH_L0.01_std >  0.19
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MI_dir_L0.01_mean >  74.09
+|   |   |   |   |   |   |   |   |--- HH_jit_L3_variance <= 0.00
+|   |   |   |   |   |   |   |   |   |--- HH_jit_L0.01_weight <= 19980.71
+|   |   |   |   |   |   |   |   |   |   |--- H_L1_weight <= 423.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |   |   |   |   |--- H_L1_weight >  423.34
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- HH_jit_L0.01_weight >  19980.71
+|   |   |   |   |   |   |   |   |   |   |--- HH_jit_L0.1_weight <= 7674.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |   |   |--- HH_jit_L0.1_weight >  7674.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- HH_jit_L3_variance >  0.00
+|   |   |   |   |   |   |   |   |   |--- HH_L0.1_covariance <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- H_L0.1_weight <= 7095.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- H_L0.1_weight >  7095.27
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- HH_L0.1_covariance >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- H_L1_weight <= 463.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- H_L1_weight >  463.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |--- HH_L0.01_covariance >  0.00
+|   |   |   |   |   |   |   |--- HH_jit_L1_weight <= 2.05
+|   |   |   |   |   |   |   |   |--- HpHp_L0.01_pcc <= -0.00
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |   |--- HpHp_L0.01_pcc >  -0.00
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- HH_jit_L1_weight >  2.05
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- MI_dir_L0.01_mean >  74.86
+|   |   |   |   |   |   |--- H_L0.01_mean <= 84.25
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- H_L0.01_mean >  84.25
+|   |   |   |   |   |   |   |--- MI_dir_L5_variance <= 8953.08
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- MI_dir_L5_variance >  8953.08
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |--- MI_dir_L0.01_mean >  299.40
+|   |   |--- HH_L0.1_magnitude <= 558.88
+|   |   |   |--- HpHp_L1_weight <= 3.14
+|   |   |   |   |--- HH_jit_L0.01_mean <= 1507657152.00
+|   |   |   |   |   |--- H_L3_weight <= 7.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- H_L3_weight >  7.99
+|   |   |   |   |   |   |--- HH_jit_L0.01_variance <= 5991171214016512.00
+|   |   |   |   |   |   |   |--- HpHp_L0.1_weight <= 1.26
+|   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |--- HpHp_L0.1_weight >  1.26
+|   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |--- HH_jit_L0.01_variance >  5991171214016512.00
+|   |   |   |   |   |   |   |--- H_L0.01_mean <= 432.80
+|   |   |   |   |   |   |   |   |--- H_L0.01_variance <= 61607.05
+|   |   |   |   |   |   |   |   |   |--- H_L0.1_weight <= 6341.59
+|   |   |   |   |   |   |   |   |   |   |--- H_L0.1_weight <= 4575.62
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- H_L0.1_weight >  4575.62
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 10
+|   |   |   |   |   |   |   |   |   |--- H_L0.1_weight >  6341.59
+|   |   |   |   |   |   |   |   |   |   |--- class: 9
+|   |   |   |   |   |   |   |   |--- H_L0.01_variance >  61607.05
+|   |   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |   |   |--- H_L0.01_mean >  432.80
+|   |   |   |   |   |   |   |   |--- class: 6
+|   |   |   |   |--- HH_jit_L0.01_mean >  1507657152.00
+|   |   |   |   |   |--- HH_jit_L1_mean <= 1507659136.00
+|   |   |   |   |   |   |--- class: 6
+|   |   |   |   |   |--- HH_jit_L1_mean >  1507659136.00
+|   |   |   |   |   |   |--- class: 10
+|   |   |   |--- HpHp_L1_weight >  3.14
+|   |   |   |   |--- class: 10
+|   |   |--- HH_L0.1_magnitude >  558.88
+|   |   |   |--- HH_jit_L0.1_variance <= 1116985400229888.00
+|   |   |   |   |--- class: 6
+|   |   |   |--- HH_jit_L0.1_variance >  1116985400229888.00
+|   |   |   |   |--- class: 0

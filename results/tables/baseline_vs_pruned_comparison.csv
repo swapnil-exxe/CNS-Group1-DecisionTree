@@ -1,0 +1,9 @@
+Metric,Baseline (Unpruned),Final Pruned Model,Change / Impact
+Cost-Complexity Alpha (ccp_alpha),0.0,1.999753e-05,Validation-Selected Optimal Alpha
+Tree Depth,21,18,-3 levels (-14.3%)
+Total Node Count,181,133,-48 nodes (-26.5%)
+Terminal Leaves (|T|),91,67,-24 leaves (-26.4%)
+Multiclass Test Accuracy,99.6144%,99.6183%,+0.0039%
+Multiclass Macro F1-Score,99.6487%,99.6510%,+0.0023%
+Generalization Gap (Train - Test Acc),0.1022%,0.0769%,-0.0253% (Overfitting reduced)
+Training Time (s),5.8940 s,5.8563 s,-0.0377 s

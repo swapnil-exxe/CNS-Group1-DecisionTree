@@ -1,0 +1,2 @@
+model,ccp_alpha,tree_depth,node_count,leaf_count,train_accuracy,test_accuracy,generalization_gap,macro_precision,macro_recall,macro_f1,weighted_f1,binary_accuracy,binary_precision,binary_recall,binary_f1,training_time_sec,inference_time_sec,latency_us_per_sample,throughput_samples_per_sec,serialized_model_size_kb
+Final Pruned Decision Tree,1.9997530739682578e-05,18,133,67,0.996952,0.996183,0.000769,0.996611,0.996455,0.99651,0.996182,0.999649,0.999746,0.999873,0.99981,5.8563,0.0039,0.152,6585750.1,5.44

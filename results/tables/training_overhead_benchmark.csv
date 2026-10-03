@@ -1,0 +1,3 @@
+Model,Mean Training Time (s),Std Training Time (s),Samples Trained,Training Rate (samples/s)
+Baseline Decision Tree (Unpruned),5.8516,0.0456,102692,17549.4
+Final Pruned Decision Tree,5.9111,0.1017,102692,17372.6

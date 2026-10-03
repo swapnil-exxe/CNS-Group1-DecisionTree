@@ -1,0 +1,12 @@
+class_id,class_name,train_count,train_pct,test_count,test_pct
+0,benign,8084,7.87,2021,7.87
+1,gafgyt_combo,7489,7.29,1872,7.29
+2,gafgyt_junk,3804,3.7,951,3.7
+3,gafgyt_scan,3706,3.61,927,3.61
+4,gafgyt_tcp,12504,12.18,3126,12.18
+5,gafgyt_udp,13761,13.4,3441,13.4
+6,mirai_ack,9361,9.12,2340,9.11
+7,mirai_scan,7823,7.62,1956,7.62
+8,mirai_syn,10662,10.38,2666,10.38
+9,mirai_udp,17889,17.42,4472,17.42
+10,mirai_udpplain,7609,7.41,1902,7.41

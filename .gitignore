@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Backups
+backup_*
+*.bak
+
+# Temporary files
+temp_*
+*.tmp

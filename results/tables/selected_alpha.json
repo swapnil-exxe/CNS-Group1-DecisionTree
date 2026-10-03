@@ -1,0 +1,9 @@
+{
+    "selected_candidate_id": 2,
+    "selected_ccp_alpha": 1.9997530739682578e-05,
+    "selection_criteria": "Highest validation macro F1, secondary validation accuracy, tie-break minimum leaves",
+    "val_accuracy": 0.997127,
+    "val_macro_f1": 0.997696,
+    "val_depth": 16,
+    "val_leaves": 65
+}

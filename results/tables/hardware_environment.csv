@@ -1,0 +1,12 @@
+Property,Specification
+Operating System,Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:02:57 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T8132)
+Hardware Architecture,arm64
+Processor,arm
+Physical CPU Cores,10
+Logical CPU Cores,10
+Total RAM (GB),16.0
+Available RAM (GB),4.9
+Python Version,3.13.9
+Scikit-Learn Version,1.7.2
+NumPy Version,2.3.5
+Pandas Version,2.3.3

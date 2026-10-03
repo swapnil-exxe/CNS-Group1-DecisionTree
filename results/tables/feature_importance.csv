@@ -1,0 +1,116 @@
+Rank,Feature,Importance,Stream_Scope,Is_Port_Protocol_Related
+1,H_L0.01_mean,0.181074,H,False
+2,MI_dir_L0.01_mean,0.172377,MI_dir,False
+3,HH_jit_L1_mean,0.170079,HH_jit,False
+4,MI_dir_L0.01_weight,0.136502,MI_dir,False
+5,MI_dir_L0.1_weight,0.086472,MI_dir,False
+6,HH_jit_L0.01_mean,0.073019,HH_jit,False
+7,HH_L0.1_magnitude,0.072227,HH,False
+8,HpHp_L1_weight,0.056838,HpHp (Host+Port to Host+Port),True
+9,HH_L0.01_covariance,0.023855,HH,False
+10,HH_jit_L3_variance,0.005288,HH_jit,False
+11,HH_L0.1_covariance,0.003581,HH,False
+12,HH_L0.01_std,0.002509,HH,False
+13,H_L0.1_weight,0.002024,H,False
+14,H_L3_weight,0.001919,H,False
+15,HH_L1_radius,0.001826,HH,False
+16,HH_jit_L0.01_weight,0.001474,HH_jit,False
+17,H_L5_variance,0.001232,H,False
+18,H_L1_weight,0.001019,H,False
+19,HH_L1_pcc,0.000785,HH,False
+20,HH_L3_pcc,0.000755,HH,False
+21,HH_jit_L0.1_weight,0.000518,HH_jit,False
+22,MI_dir_L1_weight,0.000512,MI_dir,False
+23,MI_dir_L0.01_variance,0.000475,MI_dir,False
+24,HH_jit_L0.01_variance,0.000427,HH_jit,False
+25,HH_L3_covariance,0.000359,HH,False
+26,MI_dir_L5_variance,0.000358,MI_dir,False
+27,HH_jit_L0.1_variance,0.000352,HH_jit,False
+28,HH_L0.01_magnitude,0.000337,HH,False
+29,HH_L0.01_pcc,0.000294,HH,False
+30,HH_jit_L1_weight,0.000272,HH_jit,False
+31,HH_L5_covariance,0.000233,HH,False
+32,HH_jit_L0.1_mean,0.000169,HH_jit,False
+33,HH_L1_covariance,0.00013,HH,False
+34,HpHp_L1_std,9.9e-05,HpHp (Host+Port to Host+Port),True
+35,H_L0.01_variance,9.7e-05,H,False
+36,MI_dir_L3_variance,9.2e-05,MI_dir,False
+37,H_L0.1_mean,9.2e-05,H,False
+38,HH_jit_L5_mean,7.8e-05,HH_jit,False
+39,MI_dir_L0.1_variance,6.4e-05,MI_dir,False
+40,HpHp_L0.1_weight,4.4e-05,HpHp (Host+Port to Host+Port),True
+41,H_L5_weight,4.4e-05,H,False
+42,HpHp_L0.01_pcc,3.4e-05,HpHp (Host+Port to Host+Port),True
+43,HH_L5_radius,3.3e-05,HH,False
+44,MI_dir_L1_mean,2.9e-05,MI_dir,False
+45,HH_L3_mean,0.0,HH,False
+46,HH_L3_radius,0.0,HH,False
+47,HH_L5_pcc,0.0,HH,False
+48,HH_L3_magnitude,0.0,HH,False
+49,HH_L3_std,0.0,HH,False
+50,HH_L3_weight,0.0,HH,False
+51,HH_L5_weight,0.0,HH,False
+52,HH_L5_magnitude,0.0,HH,False
+53,H_L3_mean,0.0,H,False
+54,MI_dir_L5_mean,0.0,MI_dir,False
+55,MI_dir_L3_weight,0.0,MI_dir,False
+56,MI_dir_L3_mean,0.0,MI_dir,False
+57,MI_dir_L1_variance,0.0,MI_dir,False
+58,MI_dir_L0.1_mean,0.0,MI_dir,False
+59,H_L5_mean,0.0,H,False
+60,H_L3_variance,0.0,H,False
+61,HH_L5_std,0.0,HH,False
+62,H_L1_mean,0.0,H,False
+63,H_L1_variance,0.0,H,False
+64,H_L0.1_variance,0.0,H,False
+65,H_L0.01_weight,0.0,H,False
+66,HH_L1_mean,0.0,HH,False
+67,HH_L5_mean,0.0,HH,False
+68,HH_L1_weight,0.0,HH,False
+69,HH_L0.1_pcc,0.0,HH,False
+70,HH_L1_std,0.0,HH,False
+71,HpHp_L0.1_mean,0.0,HpHp (Host+Port to Host+Port),True
+72,HpHp_L3_magnitude,0.0,HpHp (Host+Port to Host+Port),True
+73,HpHp_L3_radius,0.0,HpHp (Host+Port to Host+Port),True
+74,HpHp_L3_covariance,0.0,HpHp (Host+Port to Host+Port),True
+75,HpHp_L3_pcc,0.0,HpHp (Host+Port to Host+Port),True
+76,HpHp_L1_mean,0.0,HpHp (Host+Port to Host+Port),True
+77,HpHp_L1_magnitude,0.0,HpHp (Host+Port to Host+Port),True
+78,HpHp_L1_radius,0.0,HpHp (Host+Port to Host+Port),True
+79,HpHp_L1_covariance,0.0,HpHp (Host+Port to Host+Port),True
+80,HpHp_L1_pcc,0.0,HpHp (Host+Port to Host+Port),True
+81,HpHp_L0.1_std,0.0,HpHp (Host+Port to Host+Port),True
+82,HH_L1_magnitude,0.0,HH,False
+83,HpHp_L0.1_magnitude,0.0,HpHp (Host+Port to Host+Port),True
+84,HpHp_L0.1_radius,0.0,HpHp (Host+Port to Host+Port),True
+85,HpHp_L0.1_covariance,0.0,HpHp (Host+Port to Host+Port),True
+86,HpHp_L0.1_pcc,0.0,HpHp (Host+Port to Host+Port),True
+87,HpHp_L0.01_weight,0.0,HpHp (Host+Port to Host+Port),True
+88,HpHp_L0.01_mean,0.0,HpHp (Host+Port to Host+Port),True
+89,HpHp_L0.01_std,0.0,HpHp (Host+Port to Host+Port),True
+90,HpHp_L0.01_magnitude,0.0,HpHp (Host+Port to Host+Port),True
+91,HpHp_L0.01_radius,0.0,HpHp (Host+Port to Host+Port),True
+92,HpHp_L3_std,0.0,HpHp (Host+Port to Host+Port),True
+93,HpHp_L3_mean,0.0,HpHp (Host+Port to Host+Port),True
+94,HpHp_L3_weight,0.0,HpHp (Host+Port to Host+Port),True
+95,HpHp_L5_pcc,0.0,HpHp (Host+Port to Host+Port),True
+96,HH_L0.1_weight,0.0,HH,False
+97,HH_L0.1_mean,0.0,HH,False
+98,HH_L0.1_std,0.0,HH,False
+99,HH_L0.1_radius,0.0,HH,False
+100,HpHp_L0.01_covariance,0.0,HpHp (Host+Port to Host+Port),True
+101,HH_L0.01_weight,0.0,HH,False
+102,HH_L0.01_mean,0.0,HH,False
+103,HH_L0.01_radius,0.0,HH,False
+104,HH_jit_L5_weight,0.0,HH_jit,False
+105,HH_jit_L5_variance,0.0,HH_jit,False
+106,HH_jit_L3_weight,0.0,HH_jit,False
+107,HH_jit_L3_mean,0.0,HH_jit,False
+108,HH_jit_L1_variance,0.0,HH_jit,False
+109,HpHp_L5_weight,0.0,HpHp (Host+Port to Host+Port),True
+110,HpHp_L5_mean,0.0,HpHp (Host+Port to Host+Port),True
+111,HpHp_L5_std,0.0,HpHp (Host+Port to Host+Port),True
+112,HpHp_L5_magnitude,0.0,HpHp (Host+Port to Host+Port),True
+113,HpHp_L5_radius,0.0,HpHp (Host+Port to Host+Port),True
+114,HpHp_L5_covariance,0.0,HpHp (Host+Port to Host+Port),True
+115,MI_dir_L5_weight,0.0,MI_dir,False

@@ -1,0 +1,2 @@
+model,criterion,ccp_alpha,tree_depth,node_count,leaf_count,train_accuracy,test_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,binary_accuracy,binary_precision,binary_recall,binary_f1,training_time_sec,inference_time_sec,latency_per_sample_us,throughput_samples_per_sec
+Baseline Decision Tree (Unpruned),gini,0.0,21,181,91,0.997166,0.996144,0.99661,0.99641,0.996487,0.996143,0.999649,0.999704,0.999915,0.99981,5.894,0.0047,0.18,5419551.9
