@@ -1,2 +1,0 @@
-Accuracy,Precision,Recall,F1-Score,ROC-AUC,Training Time (s),Inference Latency (ms/sample)
-99.6183,99.6611,99.6455,99.6510,0.999410,5.8563,0.000187
