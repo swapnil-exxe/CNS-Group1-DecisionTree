@@ -1,5 +1,7 @@
 # IoT Botnet Detection Using Cost-Complexity Pruned CART Decision Trees
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/swapnil-exxe/CNS-Group1-DecisionTree/blob/main/CNS_Group1_Decision_Tree_Colab.ipynb)
+[![Research Paper PDF](https://img.shields.io/badge/Research%20Paper-Download%20PDF-red.svg)](CNS_Group1_Decision_Tree_Research_Paper.pdf)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/Accuracy-99.62%25-brightgreen.svg)]()
@@ -9,13 +11,24 @@
 > **Course:** Cryptography and Network Security (CNS A.Y. 2026–2027)  
 > **Institution:** Bhartiya Vidya Bhavan's Sardar Patel Institute of Technology (SPIT), Mumbai  
 > **Group:** Group 1 — Decision Tree  
+> **Faculty Mentor:** Dr. Renuka Pawar (Associate Head of Department, CSE)  
+> **Author:** Swapnil Patil (`swapnil.patil24@spit.ac.in`)  
 > **Assigned Research Framework:** *Lightweight Android and IoT Botnet Detection Using C4.5 Decision Trees*  
 > **Implemented Algorithm:** Minimal Cost-Complexity Pruned CART (`sklearn.tree.DecisionTreeClassifier`)  
 > **Benchmark Dataset:** N-BaIoT Telemetry Dataset (UCI Machine Learning Repository #442)  
 
 ---
 
-## ⚡ Quick Start (1-Click Replication)
+## 🚀 1-Click Interactive Google Colab Notebook
+Click below to open and run the entire evaluation live in Google Colab without installing anything locally:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/swapnil-exxe/CNS-Group1-DecisionTree/blob/main/CNS_Group1_Decision_Tree_Colab.ipynb)
+
+📄 **Research Paper:** Download the formal academic contribution PDF: [CNS_Group1_Decision_Tree_Research_Paper.pdf](CNS_Group1_Decision_Tree_Research_Paper.pdf)
+
+---
+
+## ⚡ Quick Start (Local Replication)
 
 You can replicate the entire training, pruning evaluation, and generate test metrics in under **6 seconds**:
 
